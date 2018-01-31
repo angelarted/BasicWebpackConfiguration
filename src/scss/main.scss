@@ -1,0 +1,15 @@
+$red : blue;
+$bg: red;
+
+body{
+	background: $bg;
+
+	a{
+		color: $red;
+	}
+
+	p{
+		font-size: responsive; 
+	}
+}
+@import 'tipography';
